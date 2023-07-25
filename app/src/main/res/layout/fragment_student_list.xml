@@ -1,0 +1,31 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".presentation.studentlist.StudentListFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvStudentList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:itemCount="5"
+        tools:listitem="@layout/item_student" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/app_name"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/primaryColor"
+        app:srcCompat="@drawable/ic_baseline_person_add_alt_24"
+        app:tint="@android:color/white"
+        tools:ignore="ImageContrastCheck" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

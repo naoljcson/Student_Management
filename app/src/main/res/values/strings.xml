@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Student Management</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="select_date_of_birth">Select Date of Birth</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="icon_for_menu">icon for menu</string>
+</resources>
