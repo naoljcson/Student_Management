@@ -23,21 +23,4 @@ abstract class StudentManagementDatabase : RoomDatabase() {
      * @return An instance of [StudentDao].
      */
     abstract fun studentDao(): StudentDao
-
-//    class Callback @Inject constructor(private val studentDao: StudentDao) :
-//        RoomDatabase.Callback() {
-//        override fun onCreate(db: SupportSQLiteDatabase) {
-//            super.onCreate(db)
-//            CoroutineScope(Dispatchers.IO).launch {
-//                val seedDataList = listOf(
-//                    StudentEntity(0, "John", "Doe", Date().time, ""),
-//                    StudentEntity(0, "Jane", "Smith", Date().time, ""),
-//                    StudentEntity(0, "Alex", "Johnson", Date().time, ""),
-//                )
-//                seedDataList.forEach { seedData ->
-//                    studentDao.insertStudent(seedData)
-//                }
-//            }
-//        }
-//    }
 }
